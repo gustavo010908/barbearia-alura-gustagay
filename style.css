@@ -1,57 +1,48 @@
-header {
-    background-color: #244175;
-    color: white;
-    display: flex;
-    justify-content: space-around;
-}
-body{
-    font-family: 'Bebas Neue', sans-serif;
-font-family: 'Poppins', sans-serif;
+#banner {
+    width: 100%;
 }
 
-.cabecalho-imagem{
-width: 10%;
+.principal {
+    background-color: #CCCCCC;
+    padding: 30px;
 }
 
-.escola-imagem{
-    width: 25%;
+.titulo-principal {
+    padding-left: 20px;
 }
 
-.escola{
-    background-image: linear-gradient(#244175,#6194f3);
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 24px 0;
+.titulo-centralizado {
+    text-align: center;
 }
 
-.escola-div-conteudo{
-    width: 35%;
+p {
+    text-align: center;
 }
 
-.escola-titulo{
-    padding: 24px 0;
+#missao {
+    font-size: 20px;
 }
 
-.estudante{
-    width: 120px;
+em strong {
+    color: red;
 }
 
-.estudante-icone{
-   width: 24px;
+.itens {
+    font-style: italic;
 }
 
-.estudante-div{
-    text-align-last: center;
+.beneficios {
+    background-color: white;
+    padding: 20px;
 }
 
-.estudante-titulo{
-    text-align-last: center;
-    padding: 50px 0;
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
 }
 
-.estudante-todos{
-    display: grid;
-    grid-template-columns: 20% 20% 20% 20% 20%;
+.imagembeneficios {
+    width: 50%;
 }
